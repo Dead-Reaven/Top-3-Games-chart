@@ -86,5 +86,12 @@ ol > li > ul > li {
 ol > li > ul > li > * {
   color: red;
   text-decoration: underline;
+}
 
+
+#wall-forza{
+  background: url("./img/8067186.jpg") center / cover no-repeat;
+}
+#wall-forza-content{
+  background: white ;
 }
