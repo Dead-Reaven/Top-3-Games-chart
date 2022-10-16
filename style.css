@@ -4,8 +4,17 @@ body {
 
 .container {
   max-width: 1070px;
-  padding: 0px 15px;
+  padding: 20px 15px;
   margin: 0px auto;
+}
+.page {
+  min-height: 100%;
+  padding: 20px 0px;
+}
+.text {
+  font-size: 21px;
+  text-align: justify;
+  line-height: 30px;
 }
 
 .red {
@@ -34,18 +43,11 @@ body {
   );
 }
 
-.page {
-  min-height: 100%;
-  padding: 30px 0px;
-}
+
 .h-margin {
   margin: 10px 0px;
 }
-.text {
-  font-size: 21px;
-  text-align: justify;
-  line-height: 30px;
-}
+
 
 .red > h1 {
   color: white;
@@ -93,5 +95,18 @@ ol > li > ul > li > * {
   background: url("./img/8067186.jpg") center / cover no-repeat;
 }
 #wall-forza-content{
-  background: white ;
+  background: rgba(255, 255, 255, 0.604) ;
+}
+#wall-elder{
+  background: url("./img/elder-ring-wall.jpg") center / cover no-repeat;
+}
+#wall-elder-content{
+  background: rgba(255, 255, 255, 0.863) ;
+}
+
+#wall-horizon{
+  background: url("./img/horizon-zero-dawn-pc-games-playstation-4-aloy-3840x2160-5252.jpg") center / cover no-repeat;
+}
+#wall-horizon-content{
+  background: rgba(255, 255, 255, 0.818) ;
 }
