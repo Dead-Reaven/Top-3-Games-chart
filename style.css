@@ -7,6 +7,7 @@ body {
   padding: 20px 15px;
   margin: 0px auto;
 }
+
 .page {
   min-height: 100%;
   padding: 20px 0px;
@@ -36,18 +37,17 @@ body {
   height: 250px;
   align-items: center;
   justify-content: center;
-  background-image: conic-gradient(
-    rgba(255, 51, 0, 0.591),
-    rgba(227, 19, 19, 0.694),
-    rgba(54, 43, 23, 0.279)
+  background: rgb(222, 115, 115);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 115, 115, 0.58) 47%,
+    rgba(226, 37, 37, 0.6797093837535014) 51%
   );
 }
-
 
 .h-margin {
   margin: 10px 0px;
 }
-
 
 .red > h1 {
   color: white;
@@ -90,23 +90,76 @@ ol > li > ul > li > * {
   text-decoration: underline;
 }
 
-
-#wall-forza{
+#wall-forza {
   background: url("./img/8067186.jpg") center / cover no-repeat;
 }
-#wall-forza-content{
-  background: rgba(255, 255, 255, 0.604) ;
+#wall-forza-content {
+  background: rgba(255, 255, 255, 0.604);
 }
-#wall-elder{
+#wall-elder {
   background: url("./img/elder-ring-wall.jpg") center / cover no-repeat;
 }
-#wall-elder-content{
-  background: rgba(255, 255, 255, 0.863) ;
+#wall-elder-content {
+  background: rgba(255, 255, 255, 0.863);
 }
 
-#wall-horizon{
-  background: url("./img/horizon-zero-dawn-pc-games-playstation-4-aloy-3840x2160-5252.jpg") center / cover no-repeat;
+#wall-horizon {
+  background: url("./img/horizon-zero-dawn-pc-games-playstation-4-aloy-3840x2160-5252.jpg")
+    center / cover no-repeat;
 }
-#wall-horizon-content{
-  background: rgba(255, 255, 255, 0.818) ;
+#wall-horizon-content {
+  background: rgba(255, 255, 255, 0.818);
+}
+
+@media (max-width: 1160px) {
+  .container {
+    max-width: 90%;
+  }
+  .text {
+    font-size: 19px;
+    line-height: 28px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 90%;
+  }
+  .text {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  iframe {
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  iframe {
+    height: 300px;
+  }
+  ul > li {
+    font-size: 17px;
+  }
 }
